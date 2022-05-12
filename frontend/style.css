@@ -35,5 +35,84 @@ select {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
+body>div {
+    padding-top: 20vh;
+}
+
+body>div>div {
+    font-size: 16px;
+    font-weight: medium;
+    max-width: 520px;
+
+    color: #006837;
+    background-color: #F9C582;
+
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 36px;
+    color: #006837;
+
+    padding-bottom: 10px;
+}
+
+div>p:first-child {
+    font-weight: bold;
+    line-height: 22px;
+}
+
+div>p:nth-child(2) {
+    font-style: italic;
+}
+
+input {
+    font-size: 16px;
+    width: 100%;
+    max-width: 480px;
+    height: 64px;
+    color: #98A991;
+    background-color: #FFFFFF;
+
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 520px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    body>div>div {
+        width: 100vw;
+    }
+
+    input {
+        width: 100%-40px;
+    }
+}
+
+button {
+    font-weight: 900;
+    font-size: 35px;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 20px 20px 0;
+
+    background-color: #F9C582;
+    color: #006837;
+    border-radius: 50%;
+}
