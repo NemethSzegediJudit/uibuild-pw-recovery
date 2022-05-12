@@ -32,3 +32,8 @@ select {
     appearance: none !important;
     border-radius: 0;
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
